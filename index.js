@@ -148,7 +148,7 @@ function showIcon() {
 
 function reset() {
   intentos = 0;
-  img.setAttribute("src", "/img/stag" + intentos + ".jpg");
+  img.setAttribute("src", "img/stag" + intentos + ".jpg");
   palabraPasswd = "";
   palabraFormat = "";
   palabraDisplay.value = "";

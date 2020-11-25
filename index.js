@@ -15,7 +15,7 @@ function jugar() {
     alertacion();
   } else {
     intentos = 0;
-    img.setAttribute("src", "/img/stag" + intentos + ".jpg");
+    img.setAttribute("src", "img/stag" + intentos + ".jpg");
     palabraPasswd = inputPalabra.value;
     format(palabraPasswd);
     inputPalabra.disabled = "true";
@@ -63,7 +63,7 @@ function adivinar(input) {
 }
 
 function revisarIntentos() {
-  img.setAttribute("src", "/img/stag" + intentos + ".jpg");
+  img.setAttribute("src", "img/stag" + intentos + ".jpg");
   if (intentos === 6) {
     desactivarBtn();
     perdicion();

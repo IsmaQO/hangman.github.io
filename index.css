@@ -1,0 +1,46 @@
+#alert {
+  visibility: hidden;
+  height: 0px;
+}
+
+#icon {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+#img{
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-top: 4px;
+}
+
+.content.is-vcentered {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; /* used this for multiple child */
+  align-items: center; /* if an only child */
+}
+
+@keyframes prueba {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 25;
+  }
+
+  50% {
+    opacity: 50;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}

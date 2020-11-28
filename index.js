@@ -113,7 +113,7 @@ function ganacion() {
   alert.style.visibility = "visible";
   alert.style.height = "auto";
   palabraDisplay.classList.add("is-success");
-  text.innerHTML = "Has adivinado la palabra. Pulsa en 'Reiniciar' para comenzar una nueva partida.";
+  text.innerHTML = "Olee... Has adivinado la palabra. Pulsa en 'Reiniciar' para comenzar una nueva partida.";
 
 }
 
@@ -125,7 +125,7 @@ function perdicion() {
   alert.style.height = "auto";
   palabraDisplay.classList.add("is-danger");
   palabraDisplay.value = palabraPasswd;
-  text.innerHTML = "Has perdido... Haber estudiao. Pulsa en 'Reiniciar' para comenzar una nueva partida.";
+  text.innerHTML = "Los aliens se llevan a Willy ¿Estarás contento no? Pulsa en 'Reiniciar' para comenzar una nueva partida anda...";
 }
 
 function hide() {
